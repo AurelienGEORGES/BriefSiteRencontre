@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>facebook</title>
+    <title>Facebook</title>
 </head>
 
 <body>
@@ -20,14 +20,16 @@
         <div class="form">
             <form action="" method="get">
                 <!--..............FORMULAIRE INFORMATION..............-->
-
-                <input placeholder="Prénom" type="text" name="name" id="name" required>
-                <input placeholder="Nom de famille" type="text" name="name" id="name" required>
-                <input placeholder="Numéro de mobile ou e-mail" type="text" name="name" id="name" required>
-                <input placeholder="Nouveau mot de passe" type="text" name="name" id="name" required>
-                <!--......................... FORMULAIRE CALENDRIER..........................-->
+                <div class="inputWrap">
+                    <input placeholder="Prénom" type="text" name="name" id="name" required>
+                    <input placeholder="Nom de famille" type="text" name="name" id="name" required>
+                    <input placeholder="Numéro de mobile ou e-mail" type="text" name="name" id="name" required>
+                    <input placeholder="Nouveau mot de passe" type="text" name="name" id="name" required>
+                    <!--......................... FORMULAIRE CALENDRIER..........................-->
+                </div>
 
                 <!--..................... BOUTON...................-->
+                <p class="label">Date de naissance</p>
                 <div class="calendar">
                     <input class=calendar-items placeholder="Jour " type="date" name="start" class="calendar"
                         min="1900-01" max="2017-08">
@@ -37,35 +39,39 @@
                         min="1900-01" max="2022-08">
                 </div>
 
-                <form>
-                    <p>genre</p>
-                    <div class="gender">
+                <p class="label">Genre</p>
+                <div class="gender">
+                    <span>
                         <input type="radio" id="gender1" name="contact" value="femme">
                         <label for="gender1">Femme</label>
+                    </span>
 
+                    <span>
                         <input type="radio" id="gender2" name="contact" value="homme">
                         <label for="gender2">Homme</label>
+                    </span>
 
+                    <span>
                         <input type="radio" id="gender3" name="contact" value="personnalisé">
                         <label for="gender3">Personnalisé</label>
-                    </div>
-                    <!--........................TEXT CGV ............................-->
-                    <div class="cgv">
+                    </span>
+                </div>
+                <!--........................TEXT CGV ............................-->
+                <div class="cgv">
                     <h5>En cliquant sur S’inscrire, vous acceptez nos Conditions générales. Découvrez comment nous
                         recueillons, utilisons et partageons vos données en lisant notre Politique d’utilisation des
-                        données et comment nous utilisons les cookies et autres technologies similaires en consultant
-                        notre Politique d’utilisation des cookies. Vous recevrez peut-être des notifications par texto
+                        données et comment nous utilisons les cookies et autres technologies similaires en
+                        consultant
+                        notre Politique d’utilisation des cookies. Vous recevrez peut-être des notifications par
+                        texto
                         de notre part et vous pouvez à tout moment vous désabonner</h5>
                 </div>
-                    <!--................................BOUTON....................................-->
-                    <div class="button">
-                        <button type="submit">Envoyer</button>
-                    </div>
-                </form>
+                <!--................................BOUTON....................................-->
                 <div class="button">
-                    <input type="submit" value="S'inscrire">
+                    <button type="submit">S'inscrire</button>
                 </div>
-                
+            </form>
+
             </form>
         </div>
     </div>
