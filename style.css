@@ -1,0 +1,26 @@
+*{
+    background: whitesmoke;
+}
+.tout{
+
+display: flex;
+margin:20% ;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .mag , .form{
+ padding: 2% ;
+    width: 50%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+
+
+}
