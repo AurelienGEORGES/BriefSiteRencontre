@@ -21,6 +21,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     margin: 10px 10px 10px 10px;
 }
 
@@ -70,3 +71,30 @@ a {
 
 
 
+=======
+}
+
+.mag , .form{
+padding: 2% ;
+width: 50%;
+}
+.form{
+display: flex;
+flex-direction: column;
+
+}
+.fin{
+background: white;
+}
+.Button a {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+}
+>>>>>>> 1005311203b19d2cea0c78c635db33b80fc0dfe5
