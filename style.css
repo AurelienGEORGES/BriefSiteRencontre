@@ -16,12 +16,12 @@
 }
 
 .form {
-    border-radius: 5%
+    border-radius: 5%;
     padding: 2%;
     width: 50%;
     display: flex;
     flex-direction: column;
-;
+
     margin: 10px 10px 10px 10px;
 }
 
