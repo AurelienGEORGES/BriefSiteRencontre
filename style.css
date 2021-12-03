@@ -4,29 +4,29 @@
 }
 
 .tout {
-    border: solid black 1px;
+    
     display: flex;
     margin: 20%;
 }
 
 .mag {
-    border: solid green 1px;
+    
     padding: 2%;
     width: 80%;
 }
 
 .form {
-    border: solid red 1px;
+    border-radius: 5%
     padding: 2%;
     width: 50%;
     display: flex;
     flex-direction: column;
-
+;
     margin: 10px 10px 10px 10px;
 }
 
 .image {
-    border: solid yellow 1px;
+   
     display: flex;
     flex-direction: column;
 }
@@ -72,7 +72,7 @@ a {
 
 
 
-}
+
 
 .mag , .form{
 padding: 2% ;
@@ -120,4 +120,3 @@ background-color: #4CAF50; /* Green */
     font-size: 16px;
     border-radius: 5%;
 }
-
