@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main-grey: #c7c7c7;
+    --main-white: #fff;
+}
+
+body{
+    background-color: var(--main-grey);
+    margin: 10% 26%;
+}
+
+.container{
+    margin: 16% auto;
+    background-color: var(--main-white);
+    padding: 6% 12%;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.title{
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+.inputWrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputWrap input{
+    margin: 1% auto;
+    width: 45%;
+    padding: 1%;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: #d3d3d37c;
+}
+
+.calendar{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+.label{
+    text-align: left;
+    padding: 0 3%;
+}
+
+.gender{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gender span{
+    border: 1px solid black;
+    padding: 1% 6%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.gender label{
+    padding: 0 16%;
+}
+
+.cgv h5{
+    text-align: left;
+    padding: 2% 3%;
+}
+
+.button{
+    margin-top: 4%;
+}
+
+.button button{
+    padding: 3% 15%;
+    background-color: #1ecf1e;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: #5dd65d9c;
+}
